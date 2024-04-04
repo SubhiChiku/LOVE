@@ -19,7 +19,7 @@ BOT_USERNAME = getenv("Love_subhibot" , "")
 BOT_NAME = getenv("Love" , "")
 #get Your Assistant User name
 ASSUSERNAME = getenv("LOVESUBHI_ASSIST" , "")
-EVALOP = list(map(int, getenv("EVALOP", "6322247029 6753468481").split()))
+EVALOP = list(map(int, getenv("EVALOP", "").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+3qCjioLlvxZhZDk1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Teamxt_support")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/krishna_ki_nagrii")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -85,7 +85,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "re"
+    "START_IMG_URL", "https://telegra.ph/file/c34034c955486acd97195.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/05fa5a265df54d7387fb9.jpg"
